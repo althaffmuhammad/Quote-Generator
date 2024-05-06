@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Quote.css';
-import reload_icon from '../../Assets/icons8-cart-50.png';
+import reload_icon from '../../Assets/sync.png';
 
 const Quote = () => {
   let quotes = [];
@@ -11,8 +11,8 @@ const Quote = () => {
   }
 
   const [quote, setQuote] = useState ({
-    text: 'kjhjkal;alskdjhjks sldkfjhjskalksdj kjhdjsklaskdjf',
-    author: 'john smith',
+    text: 'Difficulties increase the nearer we get to the goal.',
+    author: 'Johann Wolfgang von Goethe',
   });
 
   const random = () => {
