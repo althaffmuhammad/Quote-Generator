@@ -1,0 +1,23 @@
+.navbar {
+  width: 100vw;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 6px -6px gray;
+  --webit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+.logo {
+  color: rgb(83, 83, 83);
+  cursor: pointer;
+}
+.logo > h1 {
+  font-size: 48px;
+}
+
+@media (max-width: 750px) {
+  .logo > h1 {
+    font-size: 28px;
+  }
+}
