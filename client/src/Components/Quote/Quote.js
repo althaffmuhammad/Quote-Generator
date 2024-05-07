@@ -27,7 +27,7 @@ const Quote = () => {
       <div>
         <div className="line" />
         <div className="bottom">
-          <div className="author">{quote.author.split (',')[0]}</div>
+          <div className="author">- {quote.author.split (',')[0]}</div>
           <div className="icons">
             <img src={reload_icon} alt="" onClick={() => random ()} />
           </div>
